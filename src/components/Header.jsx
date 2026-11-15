@@ -167,7 +167,7 @@ export default function Header({ onMenuClick }) {
   const notifications = createNotifications(predictions);
 
   return (
-    <header className="h-20 bg-white border-b border-rose-100 flex items-center justify-between px-4 sm:px-4 lg:px-8">
+    <header className="h-20 top-0 sticky bg-white border-b border-rose-100 flex items-center justify-between px-4 sm:px-4 lg:px-8">
 
       <div className="flex items-center gap-3">
         <button
