@@ -257,7 +257,7 @@ export default function PeriodTracking() {
                 />
               </div>
 
-              <div>
+              {/* <div>
                 <label className="mb-2 block text-sm font-medium text-gray-700">
                   Period End Date
                   <span className="ml-2 text-xs font-normal text-gray-400">
@@ -273,7 +273,7 @@ export default function PeriodTracking() {
                   onChange={(e) => setEndDate(e.target.value)}
                   className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none focus:border-pink-400"
                 />
-              </div>
+              </div> */}
 
               {error && (
                 <p className="rounded-lg bg-red-50 p-3 text-sm text-red-600">

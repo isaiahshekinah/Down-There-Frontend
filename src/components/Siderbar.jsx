@@ -17,7 +17,7 @@ export default function Sidebar({ isOpen, onClose }) {
   const navigation = [
     { name: "Dashboard", path: "/dashboard", icon: LayoutDashboard },
     { name: "Calendar", path: "/calendar", icon: CalendarDays },
-    { name: "Period Tracking", path: "/period-tracking", icon: ClipboardList },
+    { name: "Cycle Tracking", path: "/period-tracking", icon: ClipboardList },
     { name: "Settings", path: "/settings", icon: Settings }
   ];
 
